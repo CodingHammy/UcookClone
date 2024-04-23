@@ -1,0 +1,55 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border-radius: 20px;
+  width: 25%;
+  margin: 0 4px;
+  background-color: #fff;
+}
+
+.text_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  padding: 1.1vw;
+  gap: 25px;
+}
+
+.title {
+  text-align: center;
+}
+
+.blurb {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.img {
+  max-height: 200px;
+}
+
+.link {
+  position: absolute;
+  bottom: 10px;
+}
+
+@media screen and (max-width: 1300px) {
+  .container {
+    margin: 0 3px;
+  }
+
+  .title {
+    font-size: 16px;
+  }
+
+  .blurb {
+    font-size: 14px;
+  }
+
+  .link {
+    font-size: 14px;
+  }
+
+}

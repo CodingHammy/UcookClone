@@ -1,0 +1,11 @@
+.button {
+  width: fit-content;
+  height: fit-content;
+  border: none;
+  background-color: transparent;
+  padding: 4px;
+}
+
+.arrow {
+  margin-top: 3px;
+}

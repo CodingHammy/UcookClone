@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  width: 100%;
+  background-color: rgb(250 250 250);
+}
+
+.testimonies_container {
+  padding: 50px 0;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.testimony {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 10px 1.5vw;
+  aspect-ratio: 10/4;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.name {
+  font-weight: 600;
+}
+
+.blurb {
+  word-spacing: 2px;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+}
+
+@media screen and (max-width: 1300px) {
+  .name {
+    font-size: 15px;
+  }
+
+  .blurb {
+    font-size: 14px;
+  }
+}

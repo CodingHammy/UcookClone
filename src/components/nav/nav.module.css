@@ -1,0 +1,82 @@
+.container,
+.left,
+.right,
+.ul {
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  position: fixed;
+  background-color: #fff;
+  width: 100vw;
+  justify-content: space-between;
+  padding: 5px 2vw;
+  box-shadow: 1px 1px 1px #00000021;
+  z-index: 1;
+}
+
+.logo {
+  height: 17px;
+  margin-right: 2vw;
+}
+
+.ul {
+  gap: 1.5vw;
+}
+
+.links {
+  color: black;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.right {
+  justify-content: flex-start;
+  padding-right: 30px;
+}
+
+.login {
+  font-size: 15px;
+  font-weight: 600;
+  margin-right: 5px;
+}
+
+.auth {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+.pipes {
+  height: 30px;
+  width: 1px;
+  margin: auto 1vw;
+  background-color: #00000021;
+}
+
+.cart {
+  display: flex;
+  background-color: transparent;
+  border: none;
+  align-items: center;
+  cursor: pointer;
+}
+
+.cart_amount {
+  color: white;
+  background-color: black;
+  padding: 2px 4px;
+  font-size: 12px;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 1300px) {
+  .links {
+    font-size: 10px;
+  }
+
+  .login {
+    font-size: 14px;
+  }
+}

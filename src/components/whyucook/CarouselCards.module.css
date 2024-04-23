@@ -1,0 +1,19 @@
+.container {
+  position: relative;
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  align-items: center;
+  padding: 30px 0 0;
+}
+
+.img {
+  width: 100%;
+}
+
+.carousel {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  padding: 0 1.5vw;
+}

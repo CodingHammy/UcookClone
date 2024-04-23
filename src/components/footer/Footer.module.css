@@ -1,0 +1,96 @@
+.input_container {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  box-shadow: 1px 1px 1px #00000021;
+}
+
+
+.signUp {
+  display: flex;
+  align-items: center;
+
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-right: 20px;
+  font-size: 15px;
+}
+
+.input {
+  border: 1px solid rgba(128, 128, 128, 0.233);
+  font-size: 16px;
+  padding: 10px 100px 10px 10px;
+  font-weight: 600;
+  margin-right: 5px;
+}
+
+
+.contact_container {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  padding: 50px 15%;
+  justify-content: space-between;
+  box-shadow: 1px 1px 1px #00000021;
+}
+
+.contact {
+  display: flex;
+  width: 50%;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.contact_title {
+  font-weight: 600;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.contactList {
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.contactList a {
+  color: gray;
+  letter-spacing: -0.5px;
+}
+
+.contactList a:hover {
+  color: rgb(232 117 67);
+}
+
+
+.icon_containerTop,
+.icon_containerBottom {
+  display: flex;
+  gap: 3px;
+  align-items: flex-start;
+}
+
+.store {
+  margin: -30px 0 0;
+}
+
+.clone {
+  background-color: green;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #fff;
+}
+
+.clone a {
+  color: white;
+  font-size: 30px;
+  text-decoration: underline;
+
+}

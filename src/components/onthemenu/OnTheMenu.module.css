@@ -1,0 +1,40 @@
+.container {
+  width: 85%;
+  margin: 40px auto 60px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.title {
+  font-size: 1.5vw;
+}
+
+.ul {
+  display: flex;
+  gap: 3vw;
+}
+
+.li {
+  padding: 25px 0 5px;
+
+  font-size: 18px;
+  font-weight: 100;
+  margin: 12px 0;
+}
+
+.li:first-child>a {
+  color: rgb(232 117 67);
+}
+
+
+.li a {
+  color: black;
+}
+
+@media screen and (max-width: 1300px) {
+  .li {
+    font-size: 14px;
+  }
+}
